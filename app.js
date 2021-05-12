@@ -9,7 +9,7 @@ function getUrl(text){
 }
 
 function errorHandler(error){
-    console.log("error occurred!!", error);
+    console.log("error occurred", error);
     alert("Try again after sometime, server not responding")
 }
 

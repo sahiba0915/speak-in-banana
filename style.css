@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color : #FBBF24;
+    --font-color : #111827;
+    --hover : #FDE68A;
+}
+
+body {
+    margin: 0;
+    font-family: 'KoHo', sans-serif;
+    color: var(--font-color);
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+nav h1 {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+section {
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+textarea {
+    font-family: inherit;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    border-color: var(--font-color);
+    font-size: 1rem;
+    min-height: 20vh;
+}
+
+#btn-Translate {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 1rem 0rem;
+    width: 50%;
+    background-color: var(--primary-color);
+    border-color: var(--font-color);
+}
+
+#btn-Translate:hover {
+    background-color: var(--hover);
+}
+
+.text{
+    margin: 1rem 0rem;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+}
+
